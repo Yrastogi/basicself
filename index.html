@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body fitness</title>
+ <style>
+
+    body{
+    
+        margin: 0px;
+        padding: 261px;;
+background:url('/back.jpg') ; 
+  /* Full height */
+  height: 100px; 
+  color: white;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+ 
+  background-size: cover;       
+    }
+.left{
+background-color: aqua;
+border: 2px solid rgb(182, 174, 174);
+display: inline-block; 
+position: absolute;
+    left: 34px;
+    top:24px;
+width: auto;
+}
+.middle{
+    margin: 0;
+  position: absolute;
+  top: 1%;
+left: 280px; 
+
+display: flex;
+justify-content: center;
+
+    margin:middle;
+    width: 50%;
+    margin: 12px auto;
+    border: 2px solid rgb(131, 101, 101);
+    display: inline-block; 
+    background-color: rgb(234, 136, 17);
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:20px;
+    display: inline-block; 
+    border: 2px solid rgb(154, 129, 129);
+    background-color: rgb(177, 218, 218);
+}
+.navbar{
+display: inline-block;
+
+
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 20px;
+    
+}
+.navbar li a:hover , navbar li a.active{
+    text-decoration: underline;
+}
+.namelogo{
+    height: 36px;
+ font-size: 15px;
+    width: 41px;
+}
+.btn{
+    cursor: pointer;
+}
+form{
+    border: 2px solid white;
+    margin: auto;
+    padding: 2px;
+
+    text-align: center;
+}
+.btn2{
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: underline;
+    
+}
+.form-group{
+    padding: 20px;
+    margin: 2px;
+    padding: 10px 20px;
+}
+#one{
+    padding: 2px;
+    border: 20px;
+}
+ </style>
+</head>
+<body>
+   <!-- <img src="/back.jpg" alt=""> -->
+   
+<header class="header">
+
+    
+    <div class="left">
+
+        <img src="/logo-7176064_1280.png" height="40px" width="40px" alt="">
+        <div class="namelogo">Yash Fitness</div> 
+      
+    </div>
+    <div class="middle">
+    <ul class="navbar">
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="" class="active">About us</a></li>
+        <li><a href="" class="active">Fitness calculator</a></li>
+        <li><a href="" class="active">Contact Us</a></li>
+    </ul>    
+        
+    
+    </div>
+    <div class="right">
+        <button class="btn">Contact US</button>
+        <button class="btn">Email US</button>
+    </div>
+</header>
+<form action="backend.php" class="form">
+    <div class="form-group">
+        <div>
+
+            Name: <input type="text" placeholder="Enter Your Name" id="one">
+        </div>
+        <br>
+        <div>
+
+            Phone number:<input type="text" placeholder="Enter Your Phone number">
+        </div>
+        <br>
+        <div>
+
+            Address:<input type="text" placeholder="Enter Your Address">
+        </div>
+        <br>
+        Time: <input type="text" placeholder="Enter Your Time">
+        <br>
+        <div>
+            <button class="btn2">Submit</button>
+
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>
